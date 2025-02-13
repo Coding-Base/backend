@@ -18,7 +18,13 @@ SECRET_KEY = 'django-insecure-*!d#*jy#h7z06kyp5xjn2f^kcvuc(q59jp5n&1j_0(fqv@v)nl
 DEBUG = True
 
 # Allowed hosts - adjust as necessary
-ALLOWED_HOSTS = ['https://petrox-test-frontend-7cep.onrender.com']
+ALLOWED_HOSTS = [
+    'petrox-dashboard-backend.onrender.com',
+    'petrox-test-frontend-7cep.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
