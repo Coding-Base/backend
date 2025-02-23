@@ -6,6 +6,6 @@ from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
 admin.site.unregister(User)
 
 class UserAdmin(BaseUserAdmin):
-    list_display = ('username', 'email', 'first_name', 'last_name', 'is_staff')
+    list_display = ('username', 'email', 'is_staff')
 
 admin.site.register(User, UserAdmin)
