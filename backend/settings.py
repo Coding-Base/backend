@@ -95,7 +95,7 @@ SIMPLE_JWT = {
 # Database configuration using your hardcoded internal connection string.
 DATABASES = {
     'default': dj_database_url.parse(
-        'postgresql://petrox_main_database_user:Q7y2eg2QSIRNOZo91jO9flLOH7AthwIY@dpg-cums6oaj1k6c73b338mg-a/petrox_main_database'
+        'postgresql://maindatabase2_user:aWELcHcM8NT4CxlqAoNsakuMPPsAguki@dpg-cva72rgfnakc73fvmcgg-a.oregon-postgres.render.com/maindatabase2'
     )
 }
 
