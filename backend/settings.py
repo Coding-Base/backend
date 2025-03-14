@@ -95,7 +95,7 @@ SIMPLE_JWT = {
 # Database configuration using your hardcoded internal connection string.
 DATABASES = {
     'default': dj_database_url.parse(
-        'postgresql://maindatabase2_user:aWELcHcM8NT4CxlqAoNsakuMPPsAguki@dpg-cva72rgfnakc73fvmcgg-a.oregon-postgres.render.com/maindatabase2'
+        'postgresql://dashmaindatabase_user:lW8tiXfHlNRGYLFTAAE2Sp1UuuAgd0I0@dpg-cva8btlds78s738nitn0-a.oregon-postgres.render.com/dashmaindatabase'
     )
 }
 
